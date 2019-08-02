@@ -43,7 +43,7 @@
         var DATA = {
       name: "Hi, I'm Anjishnu",
       subtext: "Computer Science student based in Kolkata, India",
-      jobStatus: "Looking for internship or part-time roles in Deep Learning, Computer Vision and Software Development.",
+      jobStatus: "Looking for an internship (preferably, research-oriented) in Deep Learning, Computer Vision and Software Development.",
       githubURL: 'https://github.com/iamshnoo',
       linkedinURL: 'https://www.linkedin.com/in/anjishnumukherjee',
       resumeURL: 'https://github.com/iamshnoo/cv/blob/master/Anjishnu_CV.pdf'
@@ -96,7 +96,7 @@
                 <h4>Summary</h4>
                 <div className="content">
                   <p className="intro-p">I&#39;m currently in my third year (out of four) studying Computer Science and Technology at Indian Institute of Engineering Science and Technology(IIEST).</p>
-                  <p className="intro-p">I am fascinated with the idea of Deep Learning and the wide variety of applications of it. I have completed 3 projects so far while learning about Computer Vision, which is my favourite application domain of Deep Learning.</p>
+                  <p className="intro-p">I am fascinated with the idea of Deep Learning and the wide variety of applications of it. I have completed 10 projects so far while learning about Computer Vision, which is my favourite application domain of Deep Learning.</p>
                   <span className="intro-p job-pls"><a href="mailto:mukherjee.anjishnu@gmail.com?Subject=Internship%20opportunity" target="_blank">I&#39;m looking for a winter internship role starting December 2019 and a summer 2020 internship role. Send me an email by clicking here.</a></span>
                 </div>
               </div>
@@ -108,7 +108,7 @@
                       <div className="university"><a href="https://www.iiests.ac.in/" target="_blank">IIEST Shibpur</a></div>
                       <div className="college"><a href="https://www.iiests.ac.in/index.php/home-cst" target="_blank">Department of Computer Science and Technology</a></div>
                       <div className="major"><strong>Major:</strong> Computer Science</div>
-                      <div className="minor"><strong>CGPA:</strong> 9.51/10</div>
+                      <div className="minor"><strong>CGPA:</strong> 9.51/10(till 4th semester) </div>
                       <div className="coursework"><strong>Relevant coursework:</strong> Data Structures and Algorithms, Design and Analysis of Algorithms, Discrete Mathematics,Theory of Computation, Digital Logic, Computer Architecture and Organization</div>
                       <div className="grad-date">Expected Graduation: July 2021</div>
                   </div>
@@ -130,7 +130,17 @@
               </div>
               <div className="experience">
                 <h4>Experience</h4>
-                <div className="content">
+                <div className="content">                                                             
+                  <div className="exp-item">                                                           
+                    <div className="job">
+                      <a className="company" href="http://www.jaduniv.edu.in/" target="_blank">Jadavpur University </a>
+                      <div className="duration">May 2019 &mdash; Present</div>
+                    </div>                                                                              
+                    <div className="title">Undergraduate Researcher</div>                                                        <ul className="description">                                                   
+                      <li>Working under the guidance of <a href="https://scholar.google.co.in/citations?user=KuRwZmgAAAAJ&hl=en">Dr Mita Nasipuri</a>  in the domain of Semantic Image Inpainting.</li>            <li>Critiqued  some of the most cited research papers in the domain, and performed an initial literature review to get acquainted with the techniques involved. This was followed by a summary of various methods used so far, along with challenges faced by each method and possible scopes of improvement.</li>
+                      <li>Implemented the latest paper in the field, independently using the PyTorch framework, achieving the same results as claimed by the experiment in the paper, thereby completing a successful verification. The paper in question is Probabilistic Semantic Inpainting with Pixel Constrained CNNs (Dupont and Suresha).</li>
+                      <li>Currently, trying to improve on the results of the paper above, using a novel method combining 2 or possibly more different Deep Learning techniques. The results of my work would be published after I have completed all the experiments, and achieved satisfactory results.</li>                                     </ul>                                                      
+                  </div>                                                               
                   <div className="exp-item">
                     <div className="job">
                       <a className="company" href="https://www.udacity.com/" target="_blank">Udacity </a>
@@ -160,6 +170,68 @@
               <div className="projects">
                 <h4>Projects</h4>
                 <div className="content">
+                                                                             
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Build an OpenStreetMap Route Planner</a> 
+                                                                             
+                    <div className="duration">July 2019</div>
+                    <ul className="project-desc">
+                      <li>Implemented A-Star Search in C++ using concepts of Object-Oriented Programming(OOPs) to find the shortest path from one point to another in a map generated from OpenStreetMap data.</li>
+                      <li>Passed automated testing under the Google Testing framework. The tests were provided by Udacity to ensure correct implementation of code. Also, passed a code review from an experienced reviewer at Udacity, with comments about the impressive way in which the entire project was coded.</li>
+                    </ul>
+                   </div> 
+                                                                             
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Deploying a Sentiment Analysis Model</a>
+                    <div className="duration">June 2019</div>
+                    <ul className="project-desc">
+                      <li>Constructed a recurrent neural network(RNN) to determine determining the sentiment of a movie review using the IMDB data set.</li>
+                      <li>The objective of the project was to learn the basic usage of Amazon Sagemaker and also to learn how to deploy web apps integrated with Deep Learning models.</li>
+                    </ul>
+                   </div> 
+                                                                             
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Generate Faces</a>
+                    <div className="duration">May 2019</div>
+                    <ul className="project-desc">
+                      <li>Implemented a Generative Adversarial Networks(GAN) based approach to generate realistic new faces of people, using the PyTorch framework.</li>
+                      <li>The goal of the project was to have a fairly basic hands-on introduction to the concepts of GANs. The course, of which this project is a part of, was taught by Ian Goodfellow, the inventor of GANs, himself.</li>
+                    </ul>
+                   </div> 
+                                                                             
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Generate TV Scripts</a>
+                    <div className="duration">May 2019</div>
+                    <ul className="project-desc">
+                      <li>Generated my own Seinfeld TV scripts using RNNs, using the Seinfeld dataset of scripts from 9 seasons. The Neural Network I built generates realistic new, "fake" TV scripts using the property of RNNs to predict terms of a sequence of text given a part of the text as training input.</li>
+                    </ul>
+                   </div> 
+                    
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Dog-Breed Classifier</a>
+                    <div className="duration">May 2019</div>
+                    <ul className="project-desc">
+                      <li>Learnt how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images. Given an image of a dog, the algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the input will be identified as human using a Haar Cascades classifier-based approach.</li>
+                   </ul>
+                   </div>   
+                                                                             
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Predicting Bike-Sharing Data</a>
+                    <div className="duration">May 2019</div>
+                    <ul className="project-desc">
+                      <li>Built a Neural Network from scratch using the NumPy toolbox only. The goal of this project was to learn the absolute basics of what goes on behind some of the common operations achieved using common Deep Learning frameworks like PyTorch, to gain a deeper understanding.</li>
+                    </ul>
+                   </div> 
+                                                                             
+                   <div className="project-item">
+                    <a className="project-title" href="" target="_blank">Face Detection and Recognition</a>
+                    <div className="duration">April 2019</div>
+                    <ul className="project-desc">
+                      <li>As an extension of my project called Facial Keypoint Detection, I implemented a facial recognition system from scratch and trained it to detect my classmates.</li>
+                      <li>This project was presented in front of a panel of 5 professors of the Computer Science department in my college, and I also submitted a brief dissertation to the panel detailing the implementation.</li>
+                    </ul>
+                   </div>                                                           
+                                                                             
                   <div className="project-item">
                     <a className="project-title" href="https://github.com/iamshnoo/Udacity-CVND-P1---Facial-Keypoint-Detection" target="_blank">Facial Keypoint Detection</a>
                     <div className="duration">Feb 2019</div>
@@ -198,15 +270,20 @@
                   </div>
                   <div className="skill-category">
                     <strong>Tools &amp; Technologies: &nbsp;</strong>
-                    <span>PyTorch, OpenCV, NumPy, AWS, Github, Git, Linux</span>
+                    <span>PyTorch, OpenCV, NumPy, AWS, STL(C++), Github, Git, Linux</span>
                   </div>
                   <div className="skill-category">
                     <strong>Area(s) of expertise: &nbsp;</strong>
-                    <span>Deep Learning, Image Processing, Computer Vision, Natural Language Processing</span>
+                    <span>Deep Learning, Computer Vision, Image Processing, Natural Language Processing</span>
                   </div>
                   <div className="skill-category">
+                    <strong>Relevant coursework: </strong>
+                    <span>Data Structures and Algorithms, Design and Analysis of Algorithms, Discrete Mathematics, Theory of Computation, Digital Logic, Computer Architecture and Organization</span>
+                  </div>                                                           
+                  <div className="skill-category">
                     <strong>Scholarships: &nbsp;</strong>
-                    <span>Facebook AI scholarship - Secure and Private AI (May 2019)</span>
+                    <li>Facebook AI scholarship - Secure and Private AI (May 2019)</li>
+                    <li>Elite Medal - NPTEL Robotics (National level Exam, Oct 2018)</li>
                   </div>                                                           
                 </div>
               </div>
